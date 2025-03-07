@@ -1,4 +1,4 @@
-# 🚀 React Portfolio Template
+# 🚀 React Portfolio Template for class
 
 This repository contains a **Personal Portfolio Template** built with **React**, designed for use in a **programming course** during the **React module**. The goal of this template is to help students understand the fundamentals of React and apply best development practices.
 
