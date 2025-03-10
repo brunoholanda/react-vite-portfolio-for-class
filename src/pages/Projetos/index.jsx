@@ -1,9 +1,6 @@
-import "./home.css";
-import profilePicture from "../../../public/assets/img/perfil.webp";
-import HabilidadesComponent from "../../components/Habilidades";
+import "./projetos.css";
 
-export default function Home() {
-
+export default function Projetos() {
     const projects = [
         { name: "Site da Dentista", link: "https://github.com/seu-usuario/projeto1" },
         { name: "Projeto 2", link: "https://github.com/seu-usuario/projeto2" },
@@ -15,19 +12,6 @@ export default function Home() {
           
             <div className="pageBody">
                 <div className="main-content">
-                    <section id="about" className="about">
-                        <div className="about-content">
-                            <div className="text">
-                                <h1>Bruno Holanda</h1>
-                                <p>Sou um desenvolvedor apaixonado por tecnologia e inovação.</p>
-                                <a href="../../../public/assets/pdf/curriculo.pdf" download className="btn">📄 Baixar Currículo</a>
-                            </div>
-                            <img src={profilePicture} alt="Foto pessoal" className="profile-pic" />
-                        </div>
-                    </section>
-
-                    <HabilidadesComponent />
-
                     <section id="projects" className="projects">
                         <h2>Meus Projetos</h2>
                         <div className="projects-container">
@@ -40,8 +24,6 @@ export default function Home() {
                         </div>
                     </section>
                 </div>
-
-                
             </div>
         </>
     );

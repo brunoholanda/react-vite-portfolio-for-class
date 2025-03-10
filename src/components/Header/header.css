@@ -1,0 +1,33 @@
+/* Header */
+.header {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.header ul li a:hover {
+    color: #f39c12;
+}

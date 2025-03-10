@@ -1,0 +1,32 @@
+
+/* Skills */
+.skills {
+    text-align: center;
+    padding: 50px 135px;
+    background: #f0f0f0;
+}
+
+.skills h2 {
+    color: #222;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills ul li {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.skills ul li:hover {
+    background: #f39c12;
+}
